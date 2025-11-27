@@ -1,0 +1,84 @@
+/* Footer*/
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.footer-logo {
+    flex-grow: 1;
+}
+
+.footer-address {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.footer-menu {
+    flex-grow: 1;
+}
+
+.footer {
+    background-image: url(../images/footer-background.png);
+    background-color: var(--color-primary-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 32px 0;
+    position: relative;
+}
+
+.footer::before {
+    position: absolute;
+    background-image: url(../images/bread-small.png);
+    content: '';
+    width: 180px;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.footer::after {
+    position: absolute;
+    background-image: url(../images/bread-large.png);
+    content: '';
+    width: 380px;
+    height: 190px;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.address-list,
+.addtess-icon {
+    flex-grow: 1;
+}
+
+.address-icon {
+    fill: var(--color-primary-light);
+}
+
+.address-icon:hover {
+    fill: var(--color-brand-normal);
+}
+
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-brand-normal);
+
+}
+
+.address-copyright {
+    font-size: 14px;
+}

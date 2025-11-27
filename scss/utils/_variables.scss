@@ -1,0 +1,17 @@
+:root {
+    --color-primary-dark: #31261a;
+    --color-primary-light: #faf4ea;
+    --color-brand-normal: #819857;
+    --color-brand-dark: #465929;
+    --color-brand-light: #cfcfbc;
+    --color-secondary-dark: #A18268;
+
+}
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}

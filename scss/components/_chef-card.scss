@@ -1,0 +1,23 @@
+.chef-card {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.chefs-item {
+    flex-basis: 50%;
+
+}
+
+.chef-image {
+    border-radius: 4px 4px 4px 200px;
+    box-shadow: -16px 16px 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
+}
+
+.chef-text p {
+    margin-bottom: 24px;
+}
+
+.chef-text p:last-child {
+    margin-bottom: 0;
+}
